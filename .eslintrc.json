@@ -3,5 +3,8 @@
   "plugins": ["import"],
   "env": {
     "mocha": true
+  },
+  "rules": {
+    "arrow-parens": ["error", "always"]
   }
 }
