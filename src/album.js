@@ -1,10 +1,10 @@
 import { API_URL } from './config';
 import { toJSON } from './utils';
 
-export const getAlbum = (id) => fetch(`${API_URL}/albums/${id}`).then(toJSON);
+export const getAlbum = (id) => fetch(`${API_URL}/albums/${id}`).then(toJSON); // eslint-disable-line
 
 export const getAlbums = (ids) =>
-  fetch(`${API_URL}/albums/?ids=${ids}`).then(toJSON);
+  fetch(`${API_URL}/albums/?ids=${ids}`).then(toJSON); // eslint-disable-line
 
 export const getAlbumTracks = (id) =>
-  fetch(`${API_URL}/albums/${id}/tracks`).then(toJSON);
+  fetch(`${API_URL}/albums/${id}/tracks`).then(toJSON); // eslint-disable-line
