@@ -1,4 +1,4 @@
-# Spotify Wrapper
+# Spotify Wrapper Study Case
 
 [![Build Status](https://travis-ci.com/gustavomanca/spotify-wrapper.svg?branch=master)](https://travis-ci.com/gustavomanca/spotify-wrapper)
 
@@ -21,7 +21,7 @@ This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests
 ## Installation
 
 ```sh
-$ npm install spotify-wrapper --save
+$ npm install spotify-wrapper-studycase --save
 ```
 
 ## How to use
@@ -30,7 +30,7 @@ $ npm install spotify-wrapper --save
 
 ```js
 // to import a specific method
-import SpotifyWrapper from 'spotify-wrapper';
+import SpotifyWrapper from 'spotify-wrapper-studycase';
 
 const spotify = new SpotifyWrapper({
   token: 'YOUR_TOKEN_HERE',
@@ -43,7 +43,7 @@ spotify.search.artists('Incubus');
 ### CommonJS
 
 ```js
-const SpotifyWrapper = require('spotify-wrapper').default;
+const SpotifyWrapper = require('spotify-wrapper-studycase').default;
 
 const spotify = new SpotifyWrapper({
   token: 'YOUR_TOKEN_HERE',
@@ -54,10 +54,10 @@ const spotify = new SpotifyWrapper({
 
 ```html
 <!-- to import non-minified version -->
-<script src="spotify-wrapper.umd.js"></script>
+<script src="spotify-wrapper-studycase.umd.js"></script>
 
 <!-- to import minified version -->
-<script src="spotify-wrapper.umd.min.js"></script>
+<script src="spotify-wrapper-studycase.umd.min.js"></script>
 ```
 
 After that the library will be available to the Global as `SpotifyWrapper`. Follow an example:
@@ -214,7 +214,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 | [Gustavo Manca](https://github.com/gustavomanca/) |
 
-See also the list of [contributors](https://github.com/gustavomanca/spotify-wrapper/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/gustavomanca/spotify-wrapper-studycase/contributors) who participated in this project.
 
 ## License
 
