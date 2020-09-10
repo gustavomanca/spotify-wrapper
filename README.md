@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/gustavomanca/spotify-wrapper.svg?branch=master)](https://travis-ci.com/gustavomanca/spotify-wrapper)
 
+[![Coverage Status](https://coveralls.io/repos/github/gustavomanca/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/gustavomanca/spotify-wrapper?branch=master)
+
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
 ## Browser Support
