@@ -5,6 +5,6 @@ export const API_URL = 'https://api.spotify.com/v1';
 
 export const HEADERS = {
   headers: {
-    Authorizarion: 'Bearer ' + TOKEN_API,
+    Authorizarion: `Bearer ${TOKEN_API}`,
   },
 };
