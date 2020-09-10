@@ -1,8 +1,8 @@
-import { API_URL } from './config';
+import { API_URL, HEADERS } from './config';
 import { toJSON } from './utils';
 
 export const search = (query, type) =>
-  fetch(`${API_URL}/search?q=${query}&type=${type}`).then(toJSON); // eslint-disable-line
+  fetch(`${API_URL}/search?q=${query}&type=${type}`, HEADERS).then(toJSON); // eslint-disable-line
 
 export const searchArtists = (query) => search(query, 'artist');
 
